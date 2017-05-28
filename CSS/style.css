@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+}
+
+/*====================================================================
+=============================vvv  HEADER  vvv========================
+====================================================================*/
+header{
+	position: relative;
+	height: 135px;
+	width: 100%;
+	background: #1E1E1E;
+	font-family: 'Palanquin-bold', sans-serif;
+	color: #FFF;
+}
+#logo{
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	float: left;
+	margin: 10px;
+}
+header h1{
+	font-size: 40px;
+	padding: 15px;
+	margin: 0;
+}
+header a{
+	color: #FFF;
+}
+header li{
+	list-style-type: none;
+}
+
+
+#right-menu{
+	position: absolute;
+	right: 0;
+	top: 20px;
+	right: 20px;
+}
+#right-menu img{
+	height: 30px;
+}
+#right-menu ul{
+	background: #101010;
+	height: 0;
+	transition-duration: .5s;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	width: 60px;
+}
+#right-menu:hover ul, #right-menu:active ul{
+	height: 60px;
+	padding: 20px 40px;
+}
+
+header nav{
+	margin: 0 5%;
+}
+header nav ul{
+	display: inline-flex;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+header nav ul li{
+	width: 20%;
+	margin:auto;
+	text-align: center;
+	border: 1px solid #FFF;
+}
+
+/*====================================================================
+=============================^^^  HEADER  ^^^========================
+====================================================================*/
+
+
+
+
+@font-face{
+	font-family: 'Palanquin';
+	src: url('../FONTS/Palanquin/palanquin-regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Palanquin-bold';
+	src: url('../FONTS/Palanquin/palanquin-bold.ttf') format('truetype');
+}
