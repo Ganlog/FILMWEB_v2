@@ -1,8 +1,10 @@
 # FILMWEB_v2
 
 Baza postawiona pod adresem:
-
 http://sql12.hostinger.pl/phpmyadmin/index.php?db=u355706363_film
+
+Strona postawiona pod adresem:
+http://ganlog.16mb.com/FILMWEB_v2/
 
 
 # Na początek trzeba zrobic:
@@ -16,11 +18,10 @@ http://sql12.hostinger.pl/phpmyadmin/index.php?db=u355706363_film
 * Logowanie i tworzenie konta
 * Przydala by sie też jakaś wyszukiwarka
 
-# Potrzebne zapytanie SQL:
+# Potrzebne zapytania SQL:
 * Pobranie wszystkich filmów od najwyżej ocenianego (do rankingu)
 * Pobranie losowego filmu (losowość dzieki PHP)
 * Pobranie wszystkich filmów ocenionych przez wskazanego użytkownika (i pozyskanie ich ilości)
 * Pobranie znajomych uzytkownika
-
 * Dodanie filmu o wpisanych danych
 * Dodanie użytkownika o podanych danych
