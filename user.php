@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>FILMWEB_v2</title>
+	<title>Your Account - FILMWEB_v2</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
